@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<RenderManLookFile Version="1" Format="RenderMan Look Data" AssemblyName="perspShape_Final">
+    <InjectablePayloads>
+        <Payload Id="PxrDisney1SG-PxrLMGlass1SG-PxrDisney2SG" Label="" Source="1" Content="1"><![CDATA[##RenderMan RIB
+version 3.04
+Attribute "user" "string __materialid" ["PxrDisney1SG"]
+Displacement "null" 
+Bxdf "PxrDisney" "PxrDisney1" "color baseColor" [1 1 1] "color emitColor" [0 0 0] "float subsurface" [0] "color subsurfaceColor" [0 0 0] "float metallic" [0.505618] "float specular" [0.561798] 
+	"float specularTint" [0] "float roughness" [0] "float anisotropic" [0] "float sheen" [0] "float sheenTint" [1] "float clearcoat" [0] "float clearcoatGloss" [1] "normal bumpNormal" [0 0 0] "float presence" [1] "int inputAOV" [0] "__instanceid" ["PxrDisney1_0"]
+Resource "PxrDisney1SG" "attributes" "string operation" ["save"] "string subset" ["shading"]
+##RenderMan RIB
+version 3.04
+Attribute "user" "string __materialid" ["PxrLMGlass1SG"]
+Displacement "null" 
+Bxdf "PxrLMGlass" "PxrLMGlass1" "int thin" [0] "float eta" [2] "color reflectionColor" [0.0469 0.0469 0.0469] "color refractionColor" [0 0 0] "float roughness" [0.01] "float absorption" [0] "color transmissionColor" [0 0 0] 
+	"int shadows" [0] "normal bumpNormal" [0 0 0] "float presence" [1] "int inputAOV" [0] "__instanceid" ["PxrLMGlass1_0"]
+Resource "PxrLMGlass1SG" "attributes" "string operation" ["save"] "string subset" ["shading"]
+##RenderMan RIB
+version 3.04
+Attribute "user" "string __materialid" ["PxrDisney2SG"]
+Displacement "null" 
+Bxdf "PxrDisney" "PxrDisney2" "color baseColor" [0.174497 0.174497 0.174497] "color emitColor" [0 0 0] "float subsurface" [0] "color subsurfaceColor" [0 0 0] "float metallic" [1] "float specular" [1] 
+	"float specularTint" [0] "float roughness" [0.3] "float anisotropic" [0] "float sheen" [0] "float sheenTint" [1] "float clearcoat" [0] "float clearcoatGloss" [1] "normal bumpNormal" [0 0 0] "float presence" [1] "int inputAOV" [0] "__instanceid" ["PxrDisney2_0"]
+Resource "PxrDisney2SG" "attributes" "string operation" ["save"] "string subset" ["shading"]
+]]></Payload>
+    </InjectablePayloads>
+    <TightBindings>
+        <Binding Key="Tablet:pCube1/Tablet:pCubeShape1" PayloadId="PxrDisney1SG-PxrLMGlass1SG-PxrDisney2SG"/>
+        <Binding Key="pCube1/pCubeShape1" PayloadId="PxrDisney1SG-PxrLMGlass1SG-PxrDisney2SG"/>
+    </TightBindings>
+</RenderManLookFile>

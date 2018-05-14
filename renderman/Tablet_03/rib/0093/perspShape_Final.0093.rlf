@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<RenderManLookFile Version="1" Format="RenderMan Look Data" AssemblyName="perspShape_Final">
+    <InjectablePayloads>
+        <Payload Id="PxrDisney2SG" Label="" Source="1" Content="1"><![CDATA[##RenderMan RIB
+version 3.04
+Attribute "user" "string __materialid" ["PxrDisney2SG"]
+Displacement "null" 
+Bxdf "PxrDisney" "Tablet_Costas" "color baseColor" [0.144 0.144 0.144] "color emitColor" [0.0402685 0.0402685 0.0402685] "float subsurface" [0] "color subsurfaceColor" [0 0 0] "float metallic" [1] "float specular" [1] 
+	"float specularTint" [0] "float roughness" [0.3] "float anisotropic" [0] "float sheen" [0] "float sheenTint" [1] "float clearcoat" [0] "float clearcoatGloss" [1] "normal bumpNormal" [0 0 0] "float presence" [1] "int inputAOV" [0] "__instanceid" ["Tablet_Costas_0"]
+]]></Payload>
+        <Payload Id="initialShadingGroup" Label="" Source="1" Content="1"><![CDATA[##RenderMan RIB
+version 3.04
+Attribute "user" "string __materialid" ["initialShadingGroup"]
+Displacement "null" 
+]]></Payload>
+        <Payload Id="PxrLMGlass1SG" Label="" Source="1" Content="1"><![CDATA[##RenderMan RIB
+version 3.04
+Attribute "user" "string __materialid" ["PxrLMGlass1SG"]
+Displacement "null" 
+Bxdf "PxrLMGlass" "Lente_Camera" "int thin" [0] "float eta" [1.5] "color reflectionColor" [0.0469799 0.0469799 0.0469799] "color refractionColor" [0.704698 0.587248 0.587248] "float roughness" [0.01] "float absorption" [0] "color transmissionColor" [0.5 0.5 0.5] 
+	"int shadows" [0] "normal bumpNormal" [0 0 0] "float presence" [1] "int inputAOV" [0] "__instanceid" ["Lente_Camera_0"]
+]]></Payload>
+        <Payload Id="PxrDisney1SG" Label="" Source="1" Content="1"><![CDATA[##RenderMan RIB
+version 3.04
+Attribute "user" "string __materialid" ["PxrDisney1SG"]
+Displacement "null" 
+Bxdf "PxrDisney" "Tablet_Frente" "color baseColor" [0.885906 0.885906 0.885906] "color emitColor" [0.161074 0.161074 0.161074] "float subsurface" [0] "color subsurfaceColor" [0 0 0] "float metallic" [0.4] "float specular" [1] 
+	"float specularTint" [0.191011] "float roughness" [0] "float anisotropic" [0] "float sheen" [0] "float sheenTint" [1] "float clearcoat" [0] "float clearcoatGloss" [1] "normal bumpNormal" [0 0 0] "float presence" [1] "int inputAOV" [0] "__instanceid" ["Tablet_Frente_0"]
+]]></Payload>
+        <Payload Id="PxrDisney3SG" Label="" Source="1" Content="1"><![CDATA[##RenderMan RIB
+version 3.04
+Attribute "user" "string __materialid" ["PxrDisney3SG"]
+Displacement "null" 
+Bxdf "PxrDisney" "PxrDisney3" "color baseColor" [0.745 0.665 0.659] "color emitColor" [0 0 0] "float subsurface" [0.45] "color subsurfaceColor" [0.745 0.665 0.659] "float metallic" [0] "float specular" [1.289] 
+	"float specularTint" [0] "float roughness" [0.65] "float anisotropic" [0] "float sheen" [0] "float sheenTint" [0.5] "float clearcoat" [0] "float clearcoatGloss" [1] "normal bumpNormal" [0 0 0] "float presence" [1] "int inputAOV" [0] "__instanceid" ["PxrDisney3_0"]
+]]></Payload>
+        <Payload Id="PxrLMGlass1SG-PxrDisney2SG" Label="" Source="1" Content="1"><![CDATA[##RenderMan RIB
+version 3.04
+Attribute "user" "string __materialid" ["PxrLMGlass1SG"]
+Displacement "null" 
+Bxdf "PxrLMGlass" "Lente_Camera" "int thin" [0] "float eta" [1.5] "color reflectionColor" [0.0469799 0.0469799 0.0469799] "color refractionColor" [0.704698 0.587248 0.587248] "float roughness" [0.01] "float absorption" [0] "color transmissionColor" [0.5 0.5 0.5] 
+	"int shadows" [0] "normal bumpNormal" [0 0 0] "float presence" [1] "int inputAOV" [0] "__instanceid" ["Lente_Camera_0"]
+Resource "PxrLMGlass1SG" "attributes" "string operation" ["save"] "string subset" ["shading"]
+##RenderMan RIB
+version 3.04
+Attribute "user" "string __materialid" ["PxrDisney2SG"]
+Displacement "null" 
+Bxdf "PxrDisney" "Tablet_Costas" "color baseColor" [0.144 0.144 0.144] "color emitColor" [0.0402685 0.0402685 0.0402685] "float subsurface" [0] "color subsurfaceColor" [0 0 0] "float metallic" [1] "float specular" [1] 
+	"float specularTint" [0] "float roughness" [0.3] "float anisotropic" [0] "float sheen" [0] "float sheenTint" [1] "float clearcoat" [0] "float clearcoatGloss" [1] "normal bumpNormal" [0 0 0] "float presence" [1] "int inputAOV" [0] "__instanceid" ["Tablet_Costas_0"]
+Resource "PxrDisney2SG" "attributes" "string operation" ["save"] "string subset" ["shading"]
+]]></Payload>
+    </InjectablePayloads>
+    <TightBindings>
+        <Binding Key="polySurface7/polySurface8/polySurface10/polySurface12/polySurface13/polySurface17/polySurface21/polySurfaceShape21" PayloadId="PxrDisney2SG"/>
+        <Binding Key="polySurface15/polySurface23/polySurface27/polySurface29/polySurface31/polySurfaceShape31" PayloadId="PxrDisney2SG"/>
+        <Binding Key="polySurface7/polySurface8/polySurface10/polySurface12/polySurface14/polySurfaceShape14" PayloadId="PxrLMGlass1SG"/>
+        <Binding Key="polySurface7/polySurface8/polySurface10/polySurface12/polySurface13/polySurface17/polySurface22/polySurfaceShape22" PayloadId="PxrDisney2SG"/>
+        <Binding Key="polySurface11/polySurface11Shape" PayloadId="PxrDisney2SG"/>
+        <Binding Key="polySurface15/polySurface23/polySurface26/polySurfaceShape26" PayloadId="initialShadingGroup"/>
+        <Binding Key="polySurface15/polySurface23/polySurface27/polySurface29/polySurface30/polySurfaceShape30" PayloadId="PxrDisney2SG"/>
+        <Binding Key="polySurface15/polySurface24/polySurfaceShape24" PayloadId="PxrLMGlass1SG"/>
+        <Binding Key="polySurface9/polySurface9Shape" PayloadId="PxrDisney1SG"/>
+        <Binding Key="polySurface33/polySurface33Shape" PayloadId="PxrDisney1SG"/>
+        <Binding Key="polySurface16/polySurface16Shape" PayloadId="PxrLMGlass1SG-PxrDisney2SG"/>
+        <Binding Key="pPlane1/pPlaneShape1" PayloadId="PxrDisney3SG"/>
+    </TightBindings>
+</RenderManLookFile>
