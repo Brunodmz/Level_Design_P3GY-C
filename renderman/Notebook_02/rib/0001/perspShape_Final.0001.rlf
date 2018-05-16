@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<RenderManLookFile Version="1" Format="RenderMan Look Data" AssemblyName="perspShape_Final">
+    <InjectablePayloads>
+        <Payload Id="PxrDisney1SG" Label="" Source="1" Content="1"><![CDATA[##RenderMan RIB
+version 3.04
+Attribute "user" "string __materialid" ["PxrDisney1SG"]
+Displacement "null" 
+Bxdf "PxrDisney" "Note_Baixo" "color baseColor" [1 1 1] "color emitColor" [0.0805369 0.0805369 0.0805369] "float subsurface" [0] "color subsurfaceColor" [0 0 0] "float metallic" [0.370787] "float specular" [1] 
+	"float specularTint" [0] "float roughness" [0.516854] "float anisotropic" [0] "float sheen" [0] "float sheenTint" [1] "float clearcoat" [0] "float clearcoatGloss" [1] "normal bumpNormal" [0 0 0] "float presence" [1] "int inputAOV" [0] "__instanceid" ["Note_Baixo_0"]
+]]></Payload>
+        <Payload Id="PxrDisney2SG" Label="" Source="1" Content="1"><![CDATA[##RenderMan RIB
+version 3.04
+Attribute "user" "string __materialid" ["PxrDisney2SG"]
+Displacement "null" 
+Bxdf "PxrDisney" "Note_Cima" "color baseColor" [0.0057 0.0057 0.0057] "color emitColor" [0 0 0] "float subsurface" [0] "color subsurfaceColor" [0 0 0] "float metallic" [0] "float specular" [0.764045] 
+	"float specularTint" [0] "float roughness" [0.876405] "float anisotropic" [0] "float sheen" [0] "float sheenTint" [0.5] "float clearcoat" [0] "float clearcoatGloss" [1] "normal bumpNormal" [0 0 0] "float presence" [1] "int inputAOV" [0] "__instanceid" ["Note_Cima_0"]
+]]></Payload>
+        <Payload Id="PxrDisney3SG" Label="" Source="1" Content="1"><![CDATA[##RenderMan RIB
+version 3.04
+Attribute "user" "string __materialid" ["PxrDisney3SG"]
+Displacement "null" 
+Bxdf "PxrDisney" "Note_Meio" "color baseColor" [0.389262 0.389262 0.389262] "color emitColor" [0 0 0] "float subsurface" [0] "color subsurfaceColor" [0 0 0] "float metallic" [0.247191] "float specular" [1] 
+	"float specularTint" [0] "float roughness" [0.382022] "float anisotropic" [0] "float sheen" [0] "float sheenTint" [1] "float clearcoat" [0] "float clearcoatGloss" [1] "normal bumpNormal" [0 0 0] "float presence" [1] "int inputAOV" [0] "__instanceid" ["Note_Meio_0"]
+]]></Payload>
+        <Payload Id="PxrDisney5SG" Label="" Source="1" Content="1"><![CDATA[##RenderMan RIB
+version 3.04
+Attribute "user" "string __materialid" ["PxrDisney5SG"]
+Displacement "null" 
+Bxdf "PxrDisney" "PxrDisney5" "color baseColor" [0.745 0.665 0.659] "color emitColor" [0 0 0] "float subsurface" [0.45] "color subsurfaceColor" [0.745 0.665 0.659] "float metallic" [0] "float specular" [1.289] 
+	"float specularTint" [0] "float roughness" [0.65] "float anisotropic" [0] "float sheen" [0] "float sheenTint" [0.5] "float clearcoat" [0] "float clearcoatGloss" [1] "normal bumpNormal" [0 0 0] "float presence" [1] "int inputAOV" [0] "__instanceid" ["PxrDisney5_0"]
+]]></Payload>
+        <Payload Id="PxrLMGlass1SG" Label="" Source="1" Content="1"><![CDATA[##RenderMan RIB
+version 3.04
+Attribute "user" "string __materialid" ["PxrLMGlass1SG"]
+Displacement "null" 
+Bxdf "PxrLMGlass" "Lentes" "int thin" [0] "float eta" [1.6] "color reflectionColor" [0.288591 0.288591 0.288591] "color refractionColor" [0.61745 0.61745 0.61745] "float roughness" [0] "float absorption" [0] "color transmissionColor" [0.14094 0.14094 0.14094] 
+	"int shadows" [0] "normal bumpNormal" [0 0 0] "float presence" [1] "int inputAOV" [0] "__instanceid" ["Lentes_0"]
+]]></Payload>
+        <Payload Id="PxrDisney4SG" Label="" Source="1" Content="1"><![CDATA[##RenderMan RIB
+version 3.04
+Attribute "user" "string __materialid" ["PxrDisney4SG"]
+Displacement "null" 
+Bxdf "PxrDisney" "Tela" "color baseColor" [0.0057 0.0057 0.0057] "color emitColor" [0 0 0] "float subsurface" [0] "color subsurfaceColor" [0 0 0] "float metallic" [0] "float specular" [0] 
+	"float specularTint" [0] "float roughness" [0.2] "float anisotropic" [0] "float sheen" [0] "float sheenTint" [0.5] "float clearcoat" [0] "float clearcoatGloss" [1] "normal bumpNormal" [0 0 0] "float presence" [1] "int inputAOV" [0] "__instanceid" ["Tela_0"]
+]]></Payload>
+    </InjectablePayloads>
+    <TightBindings>
+        <Binding Key="pCube9/polySurface1/polySurface2/polySurface4/polySurface9/polySurface11/polySurfaceShape13" PayloadId="PxrDisney1SG"/>
+        <Binding Key="pCube9/polySurface1/polySurface2/polySurface4/polySurface9/polySurface12/polySurfaceShape14" PayloadId="PxrDisney2SG"/>
+        <Binding Key="pPlane2/pPlaneShape2" PayloadId="PxrDisney5SG"/>
+        <Binding Key="pCube9/polySurface1/polySurface2/polySurface5/polySurface6/polySurface13/polySurfaceShape15" PayloadId="PxrDisney2SG"/>
+        <Binding Key="pCube9/polySurface1/polySurface2/polySurface4/polySurface10/polySurfaceShape12" PayloadId="PxrDisney3SG"/>
+        <Binding Key="pCube9/polySurface1/polySurface2/polySurface5/polySurface7/polySurfaceShape9" PayloadId="PxrDisney4SG"/>
+        <Binding Key="pCube9/polySurface1/polySurface2/polySurface5/polySurface6/polySurface14/polySurfaceShape16" PayloadId="PxrLMGlass1SG"/>
+        <Binding Key="pPlane1/pPlaneShape1" PayloadId="PxrDisney5SG"/>
+        <Binding Key="pCube9/polySurface1/polySurface3/polySurfaceShape5" PayloadId="PxrDisney3SG"/>
+        <Binding Key="pCube95/pCube95Shape" PayloadId="PxrDisney2SG"/>
+        <Binding Key="pPlane3/pPlaneShape3" PayloadId="PxrDisney5SG"/>
+    </TightBindings>
+</RenderManLookFile>

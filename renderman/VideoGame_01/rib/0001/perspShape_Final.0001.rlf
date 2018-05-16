@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<RenderManLookFile Version="1" Format="RenderMan Look Data" AssemblyName="perspShape_Final">
+    <InjectablePayloads>
+        <Payload Id="PxrDisney5SG" Label="" Source="1" Content="1"><![CDATA[##RenderMan RIB
+version 3.04
+Attribute "user" "string __materialid" ["PxrDisney5SG"]
+Displacement "null" 
+Bxdf "PxrDisney" "PxrDisney5" "color baseColor" [0.745 0.665 0.659] "color emitColor" [0 0 0] "float subsurface" [0.45] "color subsurfaceColor" [0.745 0.665 0.659] "float metallic" [0] "float specular" [1.289] 
+	"float specularTint" [0] "float roughness" [0.65] "float anisotropic" [0] "float sheen" [0] "float sheenTint" [0.5] "float clearcoat" [0] "float clearcoatGloss" [1] "normal bumpNormal" [0 0 0] "float presence" [1] "int inputAOV" [0] "__instanceid" ["PxrDisney5_0"]
+]]></Payload>
+        <Payload Id="PxrDisney6SG" Label="" Source="1" Content="1"><![CDATA[##RenderMan RIB
+version 3.04
+Attribute "user" "string __materialid" ["PxrDisney6SG"]
+Displacement "null" 
+Bxdf "PxrDisney" "Video_Game" "color baseColor" [0.0075 0.0075 0.0075] "color emitColor" [0 0 0] "float subsurface" [0] "color subsurfaceColor" [0 0 0] "float metallic" [0] "float specular" [1.524] 
+	"float specularTint" [0] "float roughness" [0.7] "float anisotropic" [0] "float sheen" [1] "float sheenTint" [0] "float clearcoat" [0] "float clearcoatGloss" [1] "normal bumpNormal" [0 0 0] "float presence" [1] "int inputAOV" [0] "__instanceid" ["Video_Game_0"]
+]]></Payload>
+        <Payload Id="PxrBlack2SG" Label="" Source="1" Content="1"><![CDATA[##RenderMan RIB
+version 3.04
+Attribute "user" "string __materialid" ["PxrBlack2SG"]
+Displacement "null" 
+Bxdf "PxrBlack" "PxrBlack2" "__instanceid" ["PxrBlack2_0"]
+Attribute "visibility" "int camera" [1]
+Light "PxrMeshLight" "PxrMeshLightShape2" "float intensity" [8] "float exposure" [0] "color lightColor" [0 0.0429 0.294] "color textureColor" [1 1 1] "int enableTemperature" [0] "float temperature" [6500] "float specular" [1] "float diffuse" [1] "float intensityNearDist" [0] 
+	"int enableShadows" [1] "color shadowColor" [0 0 0] "float shadowDistance" [-1] "float shadowFalloff" [-1] "float shadowFalloffGamma" [1] "string shadowSubset" [""] "string shadowExcludeSubset" [""] "int areaNormalize" [0] "int traceLightPaths" [0] "int thinShadow" [1] "int fixedSampleCount" [0] "float importanceMultiplier" [1] "string lightGroup" [""] "__instanceid" ["PxrMeshLightShape2_0"]
+]]></Payload>
+        <Payload Id="initialShadingGroup" Label="" Source="1" Content="1"><![CDATA[##RenderMan RIB
+version 3.04
+Attribute "user" "string __materialid" ["initialShadingGroup"]
+Displacement "null" 
+]]></Payload>
+    </InjectablePayloads>
+    <TightBindings>
+        <Binding Key="pPlane1/pPlaneShape1" PayloadId="PxrDisney5SG"/>
+        <Binding Key="pPlane3/pPlaneShape3" PayloadId="PxrDisney5SG"/>
+        <Binding Key="pPlane2/pPlaneShape2" PayloadId="PxrDisney5SG"/>
+        <Binding Key="pCube95/polySurface10/polySurfaceShape12" PayloadId="PxrDisney6SG"/>
+        <Binding Key="pCube95/polySurface11/polySurfaceShape13" PayloadId="PxrBlack2SG"/>
+        <Binding Key="pCube97/pCubeShape97" PayloadId="initialShadingGroup"/>
+        <Binding Key="pCube96/pCubeShape96" PayloadId="initialShadingGroup"/>
+        <Binding Key="pCube98/pCubeShape98" PayloadId="initialShadingGroup"/>
+    </TightBindings>
+</RenderManLookFile>
